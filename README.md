@@ -3,8 +3,8 @@
 ハウテレビジョンのインターンへようこそ :tada: <br>
 このリポジトリでは、外資就活ドットコムの開発者になるために必要な知識、技術についてまとめています。
 
-## 目次
-- [イントロダクション](https://esa-pages.io/p/sharing/5008/posts/32725/f73d61349a557ee2d6b5.html)
+## 講座資料
+- [イントロダクション](https://esa-pages.io/p/sharing/5008/posts/32734/ad87d3b78caa907f8fb4.html)
 - [ざっくりと理解するWebアプリケーション](https://esa-pages.io/p/sharing/5008/posts/32721/35ea1930c7fbcd49fd32.html)
 - [Web API 概論](https://esa-pages.io/p/sharing/5008/posts/32723/e2b342e9ec0b6812d871.html)
 - [WebアプリケーションにおけるMVCアーキテクチャ](https://esa-pages.io/p/sharing/5008/posts/32704/bdc18d1825cdbaff7635.html)
