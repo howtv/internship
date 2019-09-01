@@ -18,7 +18,7 @@
 - 指定されたIDの日記の情報を取得できる
 - 存在しない日記のIDが指定された場合はエラーとする
 
-## [PUT] `/{@version}/diaries/{@id}`
+## [PATCH] `/{@version}/diaries/{@id}`
 - `author_name`, `title`, `body` を送信することで指定されたIDの日記を更新することができる
 - `updatedAt` を更新する
 - 日記の投稿主以外からのリクエストはエラーとする
