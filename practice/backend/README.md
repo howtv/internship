@@ -11,7 +11,8 @@
 - デフォルトではcreatedAtの新しい順で返却される
 
 ## [POST] `/{@version}/diaries`
-- `author_name`, `title`, `body` を送信することで新しい日記を投稿することができる
+- `title`, `body` を送信することで新しい日記を投稿することができる`
+- `author_id` は `gs_users.ID` と同じ値を格納する
 - 会員以外からのリクエストはエラーとする
 
 ## [GET] `/{@version}/diaries/{@id}`
@@ -19,7 +20,7 @@
 - 存在しない日記のIDが指定された場合はエラーとする
 
 ## [PATCH] `/{@version}/diaries/{@id}`
-- `author_name`, `title`, `body` を送信することで指定されたIDの日記を更新することができる
+- `title`, `body` を送信することで指定されたIDの日記を更新することができる
 - `updatedAt` を更新する
 - 日記の投稿主以外からのリクエストはエラーとする
 
