@@ -1,6 +1,6 @@
 # 課題説明
 - gsskt リポジトリで、 `practice/summer-intern/diary` をcheckout してください。
-- このブランチから、 `practice/summer-intern/diary/{@your_name}` という形式で作業ブランチを切って下さい。
+- このブランチから、 `practice/summer-intern/diary_{@your_name}` という形式で作業ブランチを切って下さい。
 - このブランチには `/diaries` というヘッダー、フッターのみの画面が用意されています。
 - この画面をベースに、gsskt_backend の `practice/summer-intern/diary` に仮実装されている`/{@version}/diaries` 系のエンドポイントを使って以下の機能を実装して下さい。
 

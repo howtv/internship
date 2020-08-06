@@ -1,6 +1,6 @@
 # 課題説明
 - gsskt_backend のリポジトリで、 `practice/summer-intern/diary` をcheckout してください。
-- このブランチから、 `practice/summer-intern/diary/{@your_name}` という形式で作業ブランチを切って下さい。
+- このブランチから、 `practice/summer-intern/diary_{@your_name}` という形式で作業ブランチを切って下さい。
 - このブランチには、 `/{@version}/diaries` 系のエンドポイントが仮で実装されているので、このエンドポイントを完成させて下さい。
 - 追加で作成するテーブルのDDLはPullRequestに記載して下さい。
 
