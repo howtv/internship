@@ -26,3 +26,8 @@
 ## 日記編集画面
 - 投稿者名、タイトル、本文を送信することで日記を更新することができる
 - 投稿者本人以外はアクセスできない
+
+# gsskt_backendでも課題用ブランチをビルドする
+- gsskt_backendでも `practice/summer-intern/diary` をチェックアウトする。
+- gsskt_backend直下にて、 `make docker-build` を実行する。
+- gsskt直下にて、 `docker-compose up -d` を実行し、 `https://apiv2.gsskt.dc.local:13000/2.2/diaries` にアクセスして日記のデータが返ってくることを確認できればOK。
