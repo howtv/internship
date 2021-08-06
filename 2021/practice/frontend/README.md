@@ -1,6 +1,7 @@
 # 課題説明
+- gsskt_backendでも `practice/summer-intern/diary` をcheckout してください。
 - gsskt リポジトリで、 `practice/summer-intern/diary` をcheckout してください。
-- このブランチから、 `practice/summer-intern/diary_{@your_name}` という形式で作業ブランチを切って下さい。
+- このgssktのブランチから、 `practice/summer-intern/diary_{@your_name}` という形式で作業ブランチを切って下さい。
 - このブランチには `/diaries` というヘッダー、フッターのみの画面が用意されています。
 - この画面をベースに、gsskt_backend の `practice/summer-intern/diary` に仮実装されている`/{@version}/diaries` 系のエンドポイントを使って以下の機能を実装して下さい。
 
@@ -26,8 +27,3 @@
 ## 日記編集画面
 - 投稿者名、タイトル、本文を送信することで日記を更新することができる
 - 投稿者本人以外はアクセスできない
-
-# gsskt_backendでも課題用ブランチをビルドする
-- gsskt_backendでも `practice/summer-intern/diary` をチェックアウトする。
-- gsskt_backend直下にて、 `make docker-build` を実行する。
-- gsskt直下にて、 `docker-compose up -d` を実行し、 `https://apiv2.gsskt.dc.local:13000/2.2/diaries` にアクセスして日記のデータが返ってくることを確認できればOK。
