@@ -3,7 +3,7 @@
 - gsskt リポジトリで、 `practice/summer-intern/diary` をcheckout してください。
 - このgssktのブランチから、 `practice/summer-intern/diary_{@your_name}` という形式で作業ブランチを切って下さい。
 - このブランチには `/diaries` というヘッダー、フッターのみの画面が用意されています。
-- この画面をベースに、gsskt_backend の `practice/summer-intern/diary` に仮実装されている`/{@version}/diaries` 系のエンドポイントを使って以下の機能を実装して下さい。
+- この画面をベースに、gsskt_backend の `practice/summer-intern/diary` に仮実装されている`/3.0/diaries` 系のエンドポイントを使って以下の機能を実装して下さい。
 
 # 機能要件
 ## 日記一覧画面
