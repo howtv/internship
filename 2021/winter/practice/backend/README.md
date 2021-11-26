@@ -5,8 +5,8 @@ API を実装する上で必要なテーブルの設計も行う。
 
 ## 開発準備
 
-1. [gsskt_backend](https://github.com/howtv/gsskt_backend) のリポジトリで `practice/summer-intern/diary` を checkout
-1. `practice/summer-intern/diary` から `practice/summer-intern/diary_{@your_name}` という形式で作業ブランチを切る
+1. [gsskt_backend](https://github.com/howtv/gsskt_backend) のリポジトリで `practice/internship/diary` を checkout
+1. `practice/internship/diary` から `practice/internship/2021_winter/diary_{@your_name}` という形式で作業ブランチを切る
 
 gsskt_backend を立ち上げてリクエスト（[GET] `/3.0/service/diaries/1`）を送り以下表示されたら準備完了！
 
@@ -31,6 +31,9 @@ gsskt_backend を立ち上げてリクエスト（[GET] `/3.0/service/diaries/1`
 プルリクエストの説明に作成したテーブルの DDL を記載して完了。
 
 ## 機能要件
+
+- レスポンスに関しては、下記ファイルの仮実装のレスポンスを参考に(各エンドポイントにリクエストを送ることで確認も可能)  
+`src/gsskt_api/routes/v3.0/seervice.go`
 
 ### [GET] `/3.0/service/diaries`
 
@@ -63,6 +66,7 @@ gsskt_backend を立ち上げてリクエスト（[GET] `/3.0/service/diaries/1`
 ### [POST] `/3.0/service/diaries/{@id}/like`
 
 - 指定された `id` の日記にいいねすることができる
+- 1ユーザーが1つの日記に複数回いいねすることは不可とする(いいねを解除した場合はまたいいねできる)
 - 正会員以外からのリクエストはエラーとする
 
 ### [DELETE] `/3.0/service/diaries/{@id}/like`
