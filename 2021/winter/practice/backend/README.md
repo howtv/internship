@@ -33,7 +33,7 @@ gsskt_backend を立ち上げてリクエスト（[GET] `/3.0/service/diaries/1`
 ## 機能要件
 
 - レスポンスに関しては、下記ファイルの仮実装のレスポンスを参考に(各エンドポイントにリクエストを送ることで確認も可能)  
-`src/gsskt_api/routes/v3.0/seervice.go`
+`src/gsskt_api/routes/v3.0/service.go`
 
 ### [GET] `/3.0/service/diaries`
 
