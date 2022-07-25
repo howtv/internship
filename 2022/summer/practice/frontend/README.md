@@ -1,8 +1,7 @@
 # 課題説明
 - gsskt_backendでも `practice/summer-intern/diary` をcheckout してください。
-- reactnative リポジトリで、 `practice/summer-intern/diary` をcheckout してください。
-- このreactnativeのブランチから、 `practice/summer-intern/diary_{@your_name}` という形式で作業ブランチを切って下さい。
-- このブランチには `/diaries` というヘッダー、フッターのみの画面が用意されています。
+- reactnative リポジトリで、 `practice/summer-intern-2022/diary` をcheckout してください。
+- このreactnativeのブランチから、 `practice/summer-intern-2022/diary_{@your_name}` という形式で作業ブランチを切って下さい。
 - この画面をベースに、gsskt_backend の `practice/summer-intern/diary` に仮実装されている`/3.0/diaries` 系のエンドポイントを使って以下の機能を実装して下さい。
 
 # 機能要件
