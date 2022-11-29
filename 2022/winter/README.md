@@ -1,4 +1,4 @@
-# Howtelevision, Inc. Summer InternShip 2022
+# Howtelevision, Inc. Winter InternShip 2022
 
 ハウテレビジョンのインターンへようこそ 🎉
 このリポジトリでは、外資就活ドットコムの開発者になるために必要な知識、技術についてまとめています。

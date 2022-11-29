@@ -5,8 +5,8 @@ API を実装する上で必要なテーブルの設計も行う。
 
 ## 開発準備
 
-1. [gsskt_backend](https://github.com/howtv/gsskt_backend) のリポジトリで `practice/summer-intern/diary` を checkout
-1. `practice/summer-intern/diary` から `practice/summer-intern/diary_{@your_name}` という形式で作業ブランチを切る
+1. [gsskt_backend](https://github.com/howtv/gsskt_backend) のリポジトリで `practice/internship/diary` を checkout
+1. `practice/internship/diary` から `practice/winter-intern/diary_{@your_name}` という形式で作業ブランチを切る
 
 gsskt_backend を立ち上げてリクエスト（[GET] `/3.0/service/diaries/1`）を送り以下表示されたら準備完了！
 
