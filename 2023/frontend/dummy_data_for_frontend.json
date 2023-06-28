@@ -1,0 +1,132 @@
+{
+  "recruitments": [
+    {
+      "id": 20642,
+      "title": "【A社】1DAY INTERN",
+      "type": {
+          "key": "intern",
+          "label": "インターン"
+      },
+      "publishedAt": "2023-04-12T00:00:18+09:00",
+      "displayEndAt": "2023-06-26T23:59:59+09:00",
+      "schedules": [
+        {
+            "id": 52284,
+            "name": "1DAY INTERN（2次締切）",
+            "place": "オンライン（ご自宅よりパソコンにてご参加ください。）",
+            "displayOrder": 2,
+            "applyMethod": {
+                "id": 1,
+                "label": "Web締切"
+            },
+            "entryStart": "2023-06-05T00:00:00+09:00",
+            "entryEnd": "2023-06-26T23:59:59+09:00"
+        }
+      ],
+      "companies": [
+        {
+          "id": 1,
+          "name": "A",
+          "industryCategoryID": 3,
+          "industry": "公的金融"
+        }
+      ]
+    },
+    {
+      "id": 20768,
+      "title": "B社 WEB説明会",
+      "type": {
+          "key": "event",
+          "label": "イベント"
+      },
+      "publishedAt": "2023-05-03T00:00:19+09:00",
+      "displayEndAt": "2023-06-18T23:59:59+09:00",
+      "schedules": [
+        {
+            "id": 52362,
+            "name": "WEB説明会",
+            "place": "オンライン",
+            "displayOrder": 1,
+            "applyMethod": {
+                "id": 1,
+                "label": "Web締切"
+            },
+            "entryStart": "2023-05-03T00:00:00+09:00",
+            "entryEnd": "2023-06-18T23:59:59+09:00"
+        }
+      ],
+      "companies": [
+        {
+          "id": 2,
+          "name": "B",
+          "industryCategoryID": 2,
+          "industry": "外資系投資銀行"
+        }
+      ]
+    },
+    {
+      "id": 20773,
+      "title": "C社 本選考",
+      "type": {
+          "key": "selection",
+          "label": "本選考"
+      },
+      "publishedAt": "2023-05-03T00:00:19+09:00",
+      "displayEndAt": "2023-07-02T23:59:59+09:00",
+      "schedules": [
+        {
+          "id": 52379,
+          "name": "本選考直",
+          "place": "富士山",
+          "displayOrder": 1,
+          "applyMethod": {
+              "id": 1,
+              "label": "Web締切"
+          },
+          "entryStart": "2023-05-03T00:00:00+09:00",
+          "entryEnd": "2023-07-02T23:59:59+09:00"
+        }
+      ],
+      "companies": [
+        {
+          "id": 3,
+          "name": "C",
+          "industryCategoryID": 2,
+          "industry": "外資系投資銀行"
+        }
+      ]
+    },
+    {
+      "id": 21064,
+      "title": "D社 3Days Work shop",
+      "type": {
+          "key": "intern",
+          "label": "インターン"
+      },
+      "publishedAt": "2023-05-02T15:58:24+09:00",
+      "displayEndAt": "2023-06-20T23:59:00+09:00",
+      "schedules": [
+        {
+          "id": 53133,
+          "name": "ES・WEBテスト受検期限",
+          "place": "",
+          "displayOrder": 1,
+          "applyMethod": {
+              "id": 0,
+              "label": "締切"
+          },
+          "entryStart": "0001-01-01T00:00:00Z",
+          "entryEnd": "2023-06-20T23:59:00+09:00"
+        }
+      ],
+      "companies": [
+        {
+          "id": 4,
+          "name": "D",
+          "industryCategoryID": 8,
+          "industry": "日系その他メーカー"
+        }
+      ]
+    }
+  ]
+}
